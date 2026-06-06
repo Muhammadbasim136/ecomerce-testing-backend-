@@ -56,7 +56,7 @@ const Order = mongoose.model("Order", orderSchema);
 
 // GET - Test Route
 app.get("/", (req, res) => {
-  res.json({ message: "✅ E-commerce Backend Chal Raha Hai!" });
+  res.json("✅ Backend Working" );
 });
 
 // GET - Saare Products (Frontend Yahan Se Le Sakta Hai)
