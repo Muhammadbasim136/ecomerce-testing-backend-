@@ -19,8 +19,7 @@ const PRODUCTS = {
   6: { name: "PS5 Console", price: 89999 },
 };
  
-// MongoDB Connect
-mongoose
+
  // ✅ Sahi — .then() add karo
 mongoose
  .connect(process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/ecommerce")
